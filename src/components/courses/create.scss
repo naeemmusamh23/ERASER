@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Quicksand:wght@500&display=swap');
+.main-heading{
+    padding-top: 30px;
+
+}
+.formstyle{
+    width: 50% !important;
+    font-family: 'Quicksand', sans-serif !important;
+    // border:  2px solid  !important;
+    border-radius: 10px !important;
+    text-align: center !important;
+    position: relative !important;
+    left: 280px !important;
+    background-color: white !important;
+    box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
+    transition: box-shadow 500ms !important;
+
+}
+.formstyle:hover{
+    box-shadow: 0 0 11px rgba(33,33,33,.2) !important;
+    transition: box-shadow 500ms !important;
+}
+.form-input {
+   
+        font-family: 'Quicksand', sans-serif !important;
+        margin: 10px !important;
+  
+  
+}
+.form-input-des{
+    font-family: 'Quicksand', sans-serif !important;
+    margin: 10px !important;
+    width: 350px !important;
+}
+
+.form-button {
+        margin-top: 10px !important;
+        margin-bottom: 30px !important;
+        background-color: #0065E0 !important;
+        color: #ffff !important;
+        font-family: 'Quicksand', sans-serif !important;
+
+}
+.backgroundOne{
+    background-color: #fafafa;
+  }

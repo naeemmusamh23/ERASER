@@ -1,0 +1,60 @@
+.cardd {
+    display: flex;
+    margin: 30px;
+    min-height: 30rem;
+    width: 40%;
+    flex-direction: column;
+  }
+  
+  .render-chat {
+    height:450px;
+    width: 100%;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) ;
+  
+  }
+  .myform {
+    display: flex;
+    width: 100%;
+    flex-direction: column-reverse;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0px 3px 24px -8px rgba(0, 0, 0, 0.75);
+  }
+  
+  .name-field {
+    /* margin-bottom: 40px; */
+    width: 1px;
+  }
+  .message-field{
+    width: 100%;
+  
+  }
+  
+  .mySpan {
+    color: black;
+  }
+  /* h3{
+    color: blue;
+  } */
+  .rowInput{
+    display: flex;
+    flex-direction: row;
+  }
+  
+  video {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+  }
+  
+  
+  .roomButton{
+    display: inline;
+    padding: 10px;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+  }

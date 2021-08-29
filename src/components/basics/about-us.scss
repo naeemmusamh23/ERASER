@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Quicksand:wght@500&display=swap');
+.testimonial .slick-arrow.slick-prev,
+.testimonial .slick-arrow.slick-next {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+  border-radius: 5px;
+  font-family: 'Quicksand', sans-serif;
+}
+.slick-prev::before,
+.slick-next::before {
+  display: none;
+}
+.slick-arrow.slick-next {
+  right: -70px;
+}
+.slick-arrow.slick-prev {
+  left: -70px;
+}
+.testimonial .slick-dots li button:before {
+  font-size: 15px;
+}
+.testimonial .slick-dots li {
+  top: 15px;
+}
+.visionCap{
+  width: 50%;
+  position: relative;
+  left: 450px;
+  top: 100px;
+  font-family: 'Quicksand', sans-serif;
+}
+.imgvisio{
+  text-align: center;
+  width: 350px;
+  position: relative;
+  bottom: 100px;
+  left:20px;
+}
+.imgmision{
+  width: 250px;
+  position: relative;
+  top :30px;
+  bottom: 50px;
+  left:700px;
+}
+.MisionCap{
+  width: 50%;
+  position: relative;
+  left : 150px;
+  top: -100px;
+  font-family: 'Quicksand', sans-serif;
+}
+.card{
+  border: none!important;
+  font-family: 'Quicksand', sans-serif;
+}
+h3,h6,p{
+  font-family: 'Quicksand', sans-serif;
+}
+.backgroundOne{
+  background-color: #fafafa;
+}
+.testimonial{
+  margin-bottom: 0 !important;
+  padding-bottom: 70px;
+}

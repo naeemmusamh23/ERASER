@@ -1,0 +1,53 @@
+.courseHeading{
+    color: #0065E0 !important;
+    font-size:50px !important;
+}
+
+.btncourse{
+    display:flex !important;
+    flex-direction: column;
+    justify-content: flex-start !important;
+    // margin-bottom: 50px !important;
+}
+.btncourse2{
+    padding: 50px 0 !important;
+    display: flex !important;
+    flex-direction: column;
+    /* justify-content: flex-end !important; */
+    align-items: flex-end;
+    /* margin-bottom: 50px !important; */
+    margin-top: -150px;
+  
+}
+.openRooms{
+    width: 100%;
+    text-align: center;
+    position: relative;
+    /* margin-top: -240px; */
+    bottom: 230px;
+    /* margin-bottom: 0px;*/
+}
+.openRoomsT{
+    width: 100%;
+    text-align: center;
+    position: relative;
+    /* margin-top: -240px; */
+    bottom: 100px;
+    /* margin-bottom: 0px;*/
+}
+.roomsEdit {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    position: relative;
+    bottom: 75px;
+}
+.noMargin {
+    margin: 10px !important;
+}
+.centerDiv{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px 0;
+}
